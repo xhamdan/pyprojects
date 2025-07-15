@@ -3,6 +3,6 @@ def greet(name,message):
     print(message)
 
 person = input("Enter Persons Name: ")
-mesaj = input("Enter the message")
+mesaj = input("Enter the message: ")
 
 greet(person,mesaj)

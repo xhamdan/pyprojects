@@ -18,9 +18,17 @@ def division(num_1, numb2):
     return(quotent)
 
 sum_results =sum(10,30)
-subtraction_results=subtraction(14,20)
-quotient_results = division(40,10)
+sub_results=subtraction(14,20)
+quo_results = division(40,10)
 
-print(sum_results)
-print(subtraction_results)
-print(quotient_results)
+def average(num1,num2):
+    compute_av = sum(num1,num2)
+    average = compute_av/2
+
+    return average
+
+
+
+print(f"The Sum of the numbers is {sum_results}")
+print(f" The difference is {sub_results}")
+print(f"The quotient is {quo_results}")
